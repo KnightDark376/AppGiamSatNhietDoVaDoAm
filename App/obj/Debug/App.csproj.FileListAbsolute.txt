@@ -1,0 +1,11 @@
+E:\TL Learning Mechatronics Engineering 2018-2022\TAI LIEU HOC KY 2 NAM 2021-2022\TTCN2\App\App\bin\Debug\App.exe.config
+E:\TL Learning Mechatronics Engineering 2018-2022\TAI LIEU HOC KY 2 NAM 2021-2022\TTCN2\App\App\bin\Debug\App.exe
+E:\TL Learning Mechatronics Engineering 2018-2022\TAI LIEU HOC KY 2 NAM 2021-2022\TTCN2\App\App\bin\Debug\App.pdb
+E:\TL Learning Mechatronics Engineering 2018-2022\TAI LIEU HOC KY 2 NAM 2021-2022\TTCN2\App\App\obj\Debug\App.frmMain.resources
+E:\TL Learning Mechatronics Engineering 2018-2022\TAI LIEU HOC KY 2 NAM 2021-2022\TTCN2\App\App\obj\Debug\App.Properties.Resources.resources
+E:\TL Learning Mechatronics Engineering 2018-2022\TAI LIEU HOC KY 2 NAM 2021-2022\TTCN2\App\App\obj\Debug\App.csproj.GenerateResource.cache
+E:\TL Learning Mechatronics Engineering 2018-2022\TAI LIEU HOC KY 2 NAM 2021-2022\TTCN2\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+E:\TL Learning Mechatronics Engineering 2018-2022\TAI LIEU HOC KY 2 NAM 2021-2022\TTCN2\App\App\obj\Debug\App.exe
+E:\TL Learning Mechatronics Engineering 2018-2022\TAI LIEU HOC KY 2 NAM 2021-2022\TTCN2\App\App\obj\Debug\App.pdb
+E:\TL Learning Mechatronics Engineering 2018-2022\TAI LIEU HOC KY 2 NAM 2021-2022\TTCN2\App\App\obj\Debug\App.csproj.ResolveComReference.cache
+E:\TL Learning Mechatronics Engineering 2018-2022\TAI LIEU HOC KY 2 NAM 2021-2022\TTCN2\App\App\obj\Debug\App.csproj.AssemblyReference.cache
