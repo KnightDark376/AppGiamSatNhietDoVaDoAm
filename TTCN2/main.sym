@@ -1,0 +1,143 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+008.7   Data_Pin
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020     RH_byte1
+021     RH_byte2
+022     T_byte1
+023     T_byte2
+024-037 str
+038-039 @sprintf_string
+03A.0   MAIN.flash
+03B.0   Read_DTH11.test
+03B     @PRINTF_D_697.P1
+03B     @PSTRINGCN7_650.P2
+03B     @PRINTF_D_650.P3
+03B     lcd_init.i
+03B     MAIN.@SCRATCH1
+03B     @PSTRINGC7_650.@SCRATCH1
+03B     @PSTRINGR_1.@SCRATCH1
+03C-063 Read_DTH11.a
+03C     @PRINTF_D_697.P1
+03C     @PRINTF_D_650.P2
+03C-03F lcd_init.LCD_INIT_STRING
+03C     @PSTRINGC7_650.@SCRATCH2
+03C     @PSTRINGCN7_650.@SCRATCH1
+03C     @PSTRINGR_1.@SCRATCH2
+03D     @PSTRINGC7_650.@SCRATCH3
+03D     @PSTRINGCN7_650.@SCRATCH2
+03D     @PRINTF_D_650.@SCRATCH1
+03D     @PRINTF_D_697.@SCRATCH1
+03E     @PSTRINGC7_650.@SCRATCH4
+03E     @PSTRINGCN7_650.@SCRATCH3
+03E     @PRINTF_D_650.@SCRATCH2
+03E     @PRINTF_D_697.@SCRATCH2
+03F     @PSTRINGCN7_650.@SCRATCH4
+03F     @PRINTF_D_650.@SCRATCH3
+03F     @PRINTF_D_697.@SCRATCH3
+040     lcd_init.@SCRATCH1
+040     @PRINTF_D_650.@SCRATCH4
+040     @PRINTF_D_697.@SCRATCH4
+041     @SPRINTF.P1
+041     lcd_putc.c
+041     @DIV88.P1
+042     @DIV88.P1
+042     lcd_gotoxy.x
+043     lcd_gotoxy.y
+043     @DIV88.@SCRATCH1
+044     lcd_gotoxy.address
+045     lcd_gotoxy.@SCRATCH1
+046     lcd_send_byte.address
+047     lcd_send_byte.n
+048     lcd_read_byte.low
+048     lcd_send_byte.@SCRATCH1
+049     lcd_read_byte.high
+049     lcd_send_nibble.n
+04A     lcd_read_nibble.n
+04A     lcd_read_byte.@SCRATCH1
+04B     lcd_read_nibble.@SCRATCH1
+064     Read_DTH11.i
+065     Read_DTH11.CheckSum
+066     @delay_ms1.P1
+066     DHT11_start.@SCRATCH1
+066     Read_DTH11.@SCRATCH1
+067     Read_DTH11.@SCRATCH2
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+088.7   Data_Pin_TRIS
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const678.call
+000005  @const681.call
+00000D  @const690.call
+00000E  @const691.call
+000017  @const692.call
+00001F  @const693.call
+000020  @const694.call
+000029  @delay_ms1
+00003D  lcd_send_nibble
+000057  lcd_read_nibble
+00007C  lcd_send_byte
+000082  lcd_read_byte
+0000BF  lcd_init
+0000FE  lcd_gotoxy
+000110  lcd_putc
+00013C  @PSTRINGC7_650
+000192  Read_DTH11
+000195  DHT11_start
+00023B  @PSTRINGCN7_650
+000292  @DIV88
+0002A7  @PRINTF_D_650
+0002FE  @SPRINTF
+00030B  @PRINTF_D_697
+000362  @PSTRINGR_1
+00037B  MAIN
+00037B  @cinit1
+00038F  @cinit2
+
+Project Directory:
+    F:\TTCN2\
+
+Project Files:
+    main.c                                                  [12-Thg3-22 15:03  CRC=3F984560]
+    main.h                                                  [11-Thg3-22 23:28  CRC=D8102B21]
+    C:\Program Files (x86)\PICC\Devices\16F877A.h           [12-Thg11-13 14:35  CRC=81334808]
+    C:\Program Files (x86)\PICC\Drivers\lcd.c               [19-Thg9-13 15:38  CRC=D1A6378A]
+
+Source signature=3C28279D
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA
